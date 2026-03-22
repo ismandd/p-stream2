@@ -1,0 +1,6 @@
+[build]
+  command = "pnpm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NPM_FLAGS = "--version" # prevents npm install
