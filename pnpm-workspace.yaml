@@ -1,0 +1,5 @@
+onlyBuiltDependencies:
+  - "@p-stream/providers"
+  - core-js
+  - esbuild
+  - unrs-resolver
