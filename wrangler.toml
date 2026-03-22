@@ -1,0 +1,10 @@
+# Install wrangler if you haven't
+pnpm add -g wrangler
+
+# Build first (set your env vars before this step)
+cp example.env .env
+# Edit .env with your TMDB key, proxy URL, etc.
+pnpm run build
+
+# Deploy
+wrangler deploy
