@@ -1,6 +1,15 @@
 name = "p-stream2"
 compatibility_date = "2026-03-22"
 
+# Added build configuration from netlify.toml
+[build]
+command = "pnpm run build"
+
 [assets]
 directory = "./dist"
 not_found_handling = "single-page-application"
+
+[vars]
+# These are runtime variables. 
+# Note: For build-time environment control, see the 'Pro-tip' below.
+NODE_VERSION = "22"
