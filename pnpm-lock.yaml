@@ -44,7 +44,7 @@ importers:
         version: 1.8.0
       '@p-stream/providers':
         specifier: github:ismandd/providers#production
-        version: https://codeload.github.com/ismandd/providers/tar.gz/2eabefe27cc7d5cccfdac4a1982fc424b1101fee
+        version: https://codeload.github.com/ismandd/providers/tar.gz/ef52ba1d25f346a6587a82b26ff5a9b05ab196e9
       '@plasmohq/messaging':
         specifier: ^0.6.2
         version: 0.6.2(react@18.3.1)
@@ -1180,8 +1180,8 @@ packages:
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
 
-  '@p-stream/providers@https://codeload.github.com/ismandd/providers/tar.gz/2eabefe27cc7d5cccfdac4a1982fc424b1101fee':
-    resolution: {tarball: https://codeload.github.com/ismandd/providers/tar.gz/2eabefe27cc7d5cccfdac4a1982fc424b1101fee}
+  '@p-stream/providers@https://codeload.github.com/ismandd/providers/tar.gz/ef52ba1d25f346a6587a82b26ff5a9b05ab196e9':
+    resolution: {tarball: https://codeload.github.com/ismandd/providers/tar.gz/ef52ba1d25f346a6587a82b26ff5a9b05ab196e9}
     version: 3.2.0
 
   '@pkgjs/parseargs@0.11.0':
@@ -5500,7 +5500,7 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@p-stream/providers@https://codeload.github.com/ismandd/providers/tar.gz/2eabefe27cc7d5cccfdac4a1982fc424b1101fee':
+  '@p-stream/providers@https://codeload.github.com/ismandd/providers/tar.gz/ef52ba1d25f346a6587a82b26ff5a9b05ab196e9':
     dependencies:
       abort-controller: 3.0.0
       cheerio: 1.0.0-rc.12
